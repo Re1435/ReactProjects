@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #07080c;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mtr-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.img {
+  width: 60%;
+  max-width: 500px;
+}
+@media screen and (max-width: 568px) {
+  .img {
+    width: 40%;
+  }
+}
+
+.speed-text {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.limit-text {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn1 {
+  color: #ffffff;
+  background-color: #0b69ff;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.btn2 {
+  color: #94a3b8;
+  background-color: transparent;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border: 2px solid #94a3b8;
+  border-radius: 8px;
+  margin-left: 10px;
+}
