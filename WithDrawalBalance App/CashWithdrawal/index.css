@@ -1,0 +1,123 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.app-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cash-withdrawal-container {
+  background-color: #150b3e;
+  width: 80%;
+  border-radius: 12px;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  padding-left: 18px;
+  padding-right: 18px;
+  max-width: 350px;
+}
+
+@media screen and (min-width: 768px) {
+  .cash-withdrawal-container {
+    width: 50%;
+    padding-top: 48px;
+    padding-bottom: 16px;
+    padding-left: 36px;
+    padding-right: 36px;
+    max-width: 420px;
+  }
+}
+
+.profile-details {
+  display: flex;
+}
+
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .initial-container {
+    height: 64px;
+    width: 64px;
+    border-radius: 32px;
+  }
+}
+.initial-text {
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 24px;
+    margin-left: 16px;
+  }
+}
+.balance-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.balance-text {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 18px;
+}
+
+.balance {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.text-in-rupees {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.withdraw-text {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+.denomination {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.denominations-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
