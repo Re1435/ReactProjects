@@ -1,0 +1,46 @@
+.app-container {
+  height: 100vh;
+}
+
+.gallery-container {
+  padding-top: 30px;
+  padding-left: 45px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-img {
+  width: 250px;
+  border-radius: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .gallery-img {
+    width: 750px;
+    border-radius: 12px;
+  }
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.click-by {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+.thumbnail-list {
+  display: flex;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  list-style-type: none;
+}
+
+

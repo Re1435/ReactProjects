@@ -1,0 +1,29 @@
+.thumbnail-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .thumbnail.item {
+      display: flex;
+      flex-direction: row;
+      padding-left: 16px;
+    }
+  }
+  
+  .display-btn {
+    border: none;
+    margin-left: 12px;
+  }
+  
+  .thumbnail {
+    width: 60px;
+    height: 60px;
+    opacity: 0.5;
+  }
+  
+  .active {
+    opacity: 1;
+  }
+  
