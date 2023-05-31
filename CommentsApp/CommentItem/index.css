@@ -1,3 +1,23 @@
+.comment-item {
+  list-style-type: none;
+}
+
+.comment-container {
+  display: flex;
+}
+
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  margin-top: 18px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
 .amber {
   background-color: #f59e0b;
 }
@@ -26,27 +46,18 @@
   background-color: #0ea5e9;
 }
 
-/* Write your CSS here */
-.comment-item {
-  display: flex;
-  flex-direction: column;
-  padding: 18px;
-  list-style-type: none;
-}
-
-.name-container {
-  display: flex;
-}
-
-.initial-container {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  border-radius: 25px;
+.initial {
   color: #ffffff;
   font-family: 'Roboto';
-  font-size: 15px;
+  font-size: 16px;
+  margin: 0;
+}
+
+.username-time-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 12px;
 }
 
 .username {
@@ -54,64 +65,63 @@
   font-family: 'Roboto';
   font-size: 16px;
   font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.date {
-  color: #cbd2d9;
+.time {
+  color: #94a3b8;
   font-family: 'Roboto';
-  font-size: 16px;
-  font-weight: 400;
-  margin-left: 10px;
+  font-size: 12px;
+  margin-left: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .comment {
   color: #64748b;
   font-family: 'Roboto';
-  font-size: 16px;
-  font-weight: 400;
-  padding: 10px;
+  font-size: 14px;
 }
 
-.like-delete-btn-container {
+.buttons-container {
   display: flex;
   justify-content: space-between;
-}
-
-.like-btn {
-  border: none;
-  background-color: transparent;
+  align-items: center;
 }
 
 .like-container {
   display: flex;
+  align-items: center;
 }
 
-.like {
-  color: #94a3b8;
+.button {
+  background-color: transparent;
+  color: #7e858e;
   font-family: 'Roboto';
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
-.liked {
+
+.like-image {
+  height: 20px;
+  width: 20px;
+  margin-right: 8px;
+}
+
+.active {
   color: #0ea5e9;
 }
-.like-img {
-  height: 25px;
-  width: 25px;
+
+.delete {
+  height: 20px;
+  width: 20px;
 }
 
-.delete-btn {
-  border: none;
-  background-color: transparent;
-  color: #334155;
-}
-
-.delete-img {
-  height: 25px;
-  width: 25px;
-}
-
-.hr-line {
-  font-size: 20px;
-  color: #94a3b8;
+.comment-line {
+  width: 100%;
+  border: 1px solid #dee0e3;
 }
